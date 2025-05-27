@@ -1,0 +1,23 @@
+#controls {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.group {
+    display: grid;
+    gap: 20px;
+    place-items: center;
+}
+
+svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    filter: drop-shadow(0 0 30px #4447);
+}
+
+.petal {
+    transform-origin: center;
+}

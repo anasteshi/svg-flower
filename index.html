@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="controls">
+        <div class="group">
+            <label for="petal-count">Petal count</label>
+            <input type="range" id="petal-count" value="3" min="3" max="20">
+        </div>
+        <div class="group">
+            <label for="petal-width">Petal width</label>
+            <input type="range" id="petal-width" value="50" min="2" max="60">
+        </div>
+        <div class="group">
+            <label for="petal-height">Petal height</label>
+            <input type="range" id="petal-height" value="40" min="1" max="140">
+        </div>
+        <div class="group">
+            <label for="petal-color">Petal color</label>
+            <input type="color" id="petal-color" value="#800080">
+        </div>
+        <div class="group">
+            <label for="circle-color">Circle color</label>
+            <input type="color" id="circle-color" value="#ffff00">
+        </div>
+        <button id="rnd">Randomize</button>
+    </div>
+
+    <svg height="400" width="400" xmlns="http://www.w3.org/2000/svg">
+        <g id="petals">
+            <path class="petal" d="M 175,160 q 25,-100 50,0" fill="purple"/>
+        </g>
+        <circle id="circle" cx="200" cy="200" r="50" fill="yellow"/>
+    </svg>
+</body>
+
+</html>
