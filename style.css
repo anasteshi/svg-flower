@@ -5,6 +5,7 @@
 }
 
 .group {
+    color: rgb(255, 255, 255);
     display: grid;
     gap: 20px;
     place-items: center;
@@ -15,9 +16,12 @@ svg {
     left: 50%;
     top: 50%;
     translate: -50% -50%;
-    filter: drop-shadow(0 0 30px #4447);
+    filter: drop-shadow(0 0 20px #ffffff);
 }
 
 .petal {
     transform-origin: center;
+}
+body {
+    background-color: black;
 }
